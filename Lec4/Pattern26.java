@@ -15,7 +15,6 @@ public class Pattern26 {
 				System.out.print("  ");
 				i++;
 			}
-
 			// star
 			int val=1;
 			int j = 1;

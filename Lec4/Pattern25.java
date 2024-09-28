@@ -14,7 +14,8 @@ public class Pattern25 {
 				System.out.print("\t");
 				i++;
 			}
-
+			
+			
 			// star
 			int j = 1;
 			while (j <= star) {
