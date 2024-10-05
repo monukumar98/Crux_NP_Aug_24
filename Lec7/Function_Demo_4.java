@@ -19,7 +19,7 @@ public class Function_Demo_4 {
 
 		int c = a + b;
 		int val = 90;
-		Function_Demo_4.val = val - 5;
+		Function_Demo_4.val = Function_Demo_4.val - 5;
 		return c - Sub(a, b);
 
 	}
