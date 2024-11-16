@@ -5,6 +5,7 @@ public class Substring_lenght_Wise {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String s = "codingblocks";
+		printallsubstring(s);
 	}
 
 	public static void printallsubstring(String s) {
