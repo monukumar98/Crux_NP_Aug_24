@@ -1,9 +1,9 @@
 package Lec26;
 
 public class Queue {
-	private int[] arr;
+	protected int[] arr;
 	private int size = 0;// size
-	private int front = 0;
+	protected int front = 0;
 
 	public Queue(int n) {
 		// TODO Auto-generated constructor stub

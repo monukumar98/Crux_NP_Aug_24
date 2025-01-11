@@ -2,7 +2,7 @@ package Lec26;
 
 public class Stack {
 
-	private int[] arr;
+	protected int[] arr;
 	private int idx = -1;
 
 	public Stack(int n) {
@@ -26,7 +26,6 @@ public class Stack {
 	public int size() {
 		return idx + 1;
 	}
-
 	public void push(int item) throws Exception {
 		if (isFull()) {
 			throw new Exception("Bklol stack full hai ");
